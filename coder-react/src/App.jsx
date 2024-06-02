@@ -1,20 +1,20 @@
 
-import './App.css'
+import './App.css';
+import Navbar from './componets/Navbar';
+
+import { PieDePagina } from './componets/PieDePagina';
+
 
 function App() {
 
   return (
-    <>
-      <h1 className='Titulo'>ZINNIA</h1>
-        <div>
-            <li>Inicio</li>
-            <li>Productos</li>
-            <li>Contacto</li>
-            <li>Contacto</li>
-
-        </div>
-    </>
-  )
+    <div>
+           
+      <Navbar />
+      <PieDePagina />
+    </div>
+    
+  );
 }
 
-export default App
+export default App;

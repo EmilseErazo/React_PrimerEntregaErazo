@@ -1,9 +1,25 @@
-.navB {
+.navB  {
   background-color: rgb(250, 160, 76);
   justify-content:space-around;
   display: flex;
   align-items: center;
-  list-style-type: none;
-  
+  padding: 2rem;
+   gap: 2rem;
  
+}
+
+.navB ul {
+  list-style-type: none;
+}
+
+.navB .Titulo {
+  font-size: 35px; /* Tamaño de fuente opcional */
+  margin-bottom: 10px; /* Margen inferior opcional */
+}
+
+.footer {
+  background-color: rgb(237, 189, 106);
+  text-align: center;
+  font-size: 12px;
+
 }

@@ -1,21 +1,12 @@
-
-
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 import './App.css';
-import Navbar from './componets/Navbar';
 
-import  PieDePagina  from './componets/PieDePagina';
-
-
-function App() {
-
-  return (
-    <div>
-           
-      <Navbar />
-      <PieDePagina />
-    </div>
-    
-  );
-}
+ReactDOM.createRoot(document.getElementById('Zinnia')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
 export default App;
